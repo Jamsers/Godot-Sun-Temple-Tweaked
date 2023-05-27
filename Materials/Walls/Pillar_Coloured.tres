@@ -13,3 +13,4 @@ roughness_texture = ExtResource("2_hdslw")
 roughness_texture_channel = 1
 normal_enabled = true
 normal_texture = ExtResource("3_tt411")
+texture_filter = 5
