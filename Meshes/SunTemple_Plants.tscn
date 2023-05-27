@@ -1,0 +1,64 @@
+[gd_scene load_steps=6 format=3 uid="uid://bosbkdqnasga6"]
+
+[ext_resource type="PackedScene" uid="uid://c7qqxqvsy436y" path="res://Meshes/SunTemple_Plants.glb" id="1_w5u7f"]
+[ext_resource type="Material" uid="uid://8gps86oaikke" path="res://Materials/Nature/Bushes.tres" id="2_612jh"]
+[ext_resource type="Material" uid="uid://ye5sem6yj38p" path="res://Materials/Nature/Trunk.tres" id="2_rd7t2"]
+[ext_resource type="Material" uid="uid://b6q5prg0acfkt" path="res://Materials/Nature/Tree02.tres" id="3_q54vi"]
+[ext_resource type="Material" uid="uid://bba17vq0wpy2q" path="res://Materials/Nature/Tree01.tres" id="3_weto2"]
+
+[node name="SunTemple_Plants" instance=ExtResource("1_w5u7f")]
+
+[node name="S_BuildingSetA_Tree_02_6" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_rd7t2")
+surface_material_override/1 = ExtResource("3_q54vi")
+
+[node name="S_BuildingSetA_Tree_3" parent="." index="1"]
+surface_material_override/0 = ExtResource("2_rd7t2")
+surface_material_override/1 = ExtResource("3_q54vi")
+
+[node name="S_BuildingSetA_Tree_4" parent="." index="2"]
+surface_material_override/0 = ExtResource("2_rd7t2")
+surface_material_override/1 = ExtResource("3_q54vi")
+
+[node name="Soul_FG01_20" parent="." index="3"]
+surface_material_override/0 = ExtResource("2_612jh")
+
+[node name="Soul_FG2" parent="." index="4"]
+surface_material_override/0 = ExtResource("2_612jh")
+
+[node name="Soul_FG3" parent="." index="5"]
+surface_material_override/0 = ExtResource("2_612jh")
+
+[node name="Soul_FG4" parent="." index="6"]
+surface_material_override/0 = ExtResource("2_612jh")
+
+[node name="Soul_FG5" parent="." index="7"]
+surface_material_override/0 = ExtResource("2_612jh")
+
+[node name="Soul_FG6" parent="." index="8"]
+surface_material_override/0 = ExtResource("2_612jh")
+
+[node name="Soul_FG7" parent="." index="9"]
+surface_material_override/0 = ExtResource("2_612jh")
+
+[node name="Soul_FG8" parent="." index="10"]
+surface_material_override/0 = ExtResource("2_612jh")
+
+[node name="Soul_FG9" parent="." index="11"]
+surface_material_override/0 = ExtResource("2_612jh")
+
+[node name="Soul_Tree_4" parent="." index="12"]
+surface_material_override/0 = ExtResource("2_rd7t2")
+surface_material_override/1 = ExtResource("3_weto2")
+
+[node name="Soul_Tree_5" parent="." index="13"]
+surface_material_override/0 = ExtResource("2_rd7t2")
+surface_material_override/1 = ExtResource("3_weto2")
+
+[node name="Soul_Tree_6" parent="." index="14"]
+surface_material_override/0 = ExtResource("2_rd7t2")
+surface_material_override/1 = ExtResource("3_weto2")
+
+[node name="Soul_Tree_7" parent="." index="15"]
+surface_material_override/0 = ExtResource("2_rd7t2")
+surface_material_override/1 = ExtResource("3_weto2")

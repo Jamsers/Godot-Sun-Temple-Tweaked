@@ -1,0 +1,49 @@
+[gd_scene load_steps=7 format=3 uid="uid://blny5jtdn1v6y"]
+
+[ext_resource type="PackedScene" uid="uid://dv4fog07xg57x" path="res://Meshes/SunTemple_MiddleRoomDetails.glb" id="1_lf7og"]
+[ext_resource type="Material" uid="uid://byuwv4qh7qppp" path="res://Materials/Details/BottomTrim_Black.tres" id="2_u4i3c"]
+[ext_resource type="Material" uid="uid://bay720vshaqmx" path="res://Materials/Details/FirePit_Glow.tres" id="3_63ycl"]
+[ext_resource type="Material" uid="uid://d4gv100qut5xa" path="res://Materials/Details/FirePit_NoGlow.tres" id="3_d4w7x"]
+[ext_resource type="Material" uid="uid://cxjcuka3qi8ey" path="res://Materials/Details/Shield.tres" id="3_xo7aa"]
+[ext_resource type="Material" uid="uid://uroasc664557" path="res://Materials/Details/Statue.tres" id="4_24lci"]
+
+[node name="SunTemple_MiddleRoomDetails" instance=ExtResource("1_lf7og")]
+
+[node name="SM_BottomTrim_Sqr_15" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_u4i3c")
+
+[node name="SM_BottomTrim_Sqr_352" parent="." index="1"]
+surface_material_override/0 = ExtResource("2_u4i3c")
+
+[node name="SM_BottomTrim_Sqr_6" parent="." index="2"]
+surface_material_override/0 = ExtResource("2_u4i3c")
+
+[node name="SM_BottomTrim_Sqr_7" parent="." index="3"]
+surface_material_override/0 = ExtResource("2_u4i3c")
+
+[node name="SM_FirePit_12" parent="." index="4"]
+surface_material_override/0 = ExtResource("3_d4w7x")
+
+[node name="SM_FirePit_21" parent="." index="5"]
+surface_material_override/0 = ExtResource("3_63ycl")
+
+[node name="SM_FirePit_29" parent="." index="6"]
+surface_material_override/0 = ExtResource("3_63ycl")
+
+[node name="SM_FirePit_31" parent="." index="7"]
+surface_material_override/0 = ExtResource("3_63ycl")
+
+[node name="SM_FirePit_41" parent="." index="8"]
+surface_material_override/0 = ExtResource("3_63ycl")
+
+[node name="SM_FirePit_5" parent="." index="9"]
+surface_material_override/0 = ExtResource("3_63ycl")
+
+[node name="SM_Shield_2" parent="." index="10"]
+surface_material_override/0 = ExtResource("3_xo7aa")
+
+[node name="SM_Shield_5" parent="." index="11"]
+surface_material_override/0 = ExtResource("3_xo7aa")
+
+[node name="SM_Statue_2" parent="." index="12"]
+surface_material_override/0 = ExtResource("4_24lci")

@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3 uid="uid://bf0svl4hiaw6s"]
+
+[ext_resource type="PackedScene" uid="uid://dqbdqn1mx8k6c" path="res://Meshes/SunTemple_Ground.glb" id="1_mssun"]
+[ext_resource type="Material" uid="uid://cjn7lrmwpnm2a" path="res://Materials/Ground/FloorTiles1.tres" id="2_218xg"]
+[ext_resource type="Material" uid="uid://c2f5i0g0qsmid" path="res://Materials/Ground/FloorTiles1Blue.tres" id="2_iha1t"]
+[ext_resource type="Material" uid="uid://b8vntr5d1m7wi" path="res://Materials/Ground/FloorTiles1C.tres" id="2_rh2c7"]
+[ext_resource type="Material" uid="uid://dcka3fl0ekja5" path="res://Materials/Ground/FloorTiles2Red.tres" id="3_usucw"]
+
+[node name="SunTemple_Ground" instance=ExtResource("1_mssun")]
+
+[node name="SM_Floor_Lower_2" parent="." index="0"]
+lod_bias = 10.0
+surface_material_override/0 = ExtResource("2_iha1t")
+surface_material_override/1 = ExtResource("2_rh2c7")
+
+[node name="SM_Floor_Lower_4" parent="." index="1"]
+lod_bias = 10.0
+surface_material_override/0 = ExtResource("2_iha1t")
+surface_material_override/1 = ExtResource("3_usucw")
+
+[node name="SM_Floor_StairTop_2" parent="." index="2"]
+lod_bias = 10.0
+surface_material_override/0 = ExtResource("2_218xg")
+surface_material_override/1 = ExtResource("2_rh2c7")
+
+[node name="SM_Floor_StairTop_3" parent="." index="3"]
+lod_bias = 10.0
+surface_material_override/0 = ExtResource("2_218xg")
+surface_material_override/1 = ExtResource("2_rh2c7")
+
+[node name="SM_Floor_StairTop_43" parent="." index="4"]
+lod_bias = 10.0
+surface_material_override/0 = ExtResource("2_218xg")

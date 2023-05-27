@@ -1,0 +1,64 @@
+[gd_scene load_steps=7 format=3 uid="uid://c43dev31qybh3"]
+
+[ext_resource type="PackedScene" uid="uid://bkcsjr8pd38k2" path="res://Meshes/SunTemple_FirstRoomDetails.glb" id="1_k2lud"]
+[ext_resource type="Material" uid="uid://byuwv4qh7qppp" path="res://Materials/Details/BottomTrim_Black.tres" id="2_j4nrr"]
+[ext_resource type="Material" uid="uid://bay720vshaqmx" path="res://Materials/Details/FirePit_Glow.tres" id="3_l4ftn"]
+[ext_resource type="Material" uid="uid://d4gv100qut5xa" path="res://Materials/Details/FirePit_NoGlow.tres" id="3_qwvnf"]
+[ext_resource type="Material" uid="uid://cxjcuka3qi8ey" path="res://Materials/Details/Shield.tres" id="4_u6ptw"]
+[ext_resource type="Material" uid="uid://uroasc664557" path="res://Materials/Details/Statue.tres" id="5_a4pcv"]
+
+[node name="SunTemple_FirstRoomDetails" instance=ExtResource("1_k2lud")]
+
+[node name="SM_BottomTrim_Sqr_2" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_j4nrr")
+
+[node name="SM_BottomTrim_Sqr_3" parent="." index="1"]
+surface_material_override/0 = ExtResource("2_j4nrr")
+
+[node name="SM_BottomTrim_Sqr_346" parent="." index="2"]
+surface_material_override/0 = ExtResource("2_j4nrr")
+
+[node name="SM_BottomTrim_Sqr_4" parent="." index="3"]
+surface_material_override/0 = ExtResource("2_j4nrr")
+
+[node name="SM_FirePit_10" parent="." index="4"]
+surface_material_override/0 = ExtResource("3_qwvnf")
+
+[node name="SM_FirePit_11" parent="." index="5"]
+surface_material_override/0 = ExtResource("3_qwvnf")
+
+[node name="SM_FirePit_14" parent="." index="6"]
+surface_material_override/0 = ExtResource("3_l4ftn")
+
+[node name="SM_FirePit_23" parent="." index="7"]
+surface_material_override/0 = ExtResource("3_l4ftn")
+
+[node name="SM_FirePit_3" parent="." index="8"]
+surface_material_override/0 = ExtResource("3_l4ftn")
+
+[node name="SM_FirePit_7" parent="." index="9"]
+surface_material_override/0 = ExtResource("3_l4ftn")
+
+[node name="SM_FirePit_9" parent="." index="10"]
+surface_material_override/0 = ExtResource("3_qwvnf")
+
+[node name="SM_Shield_3" parent="." index="11"]
+surface_material_override/0 = ExtResource("4_u6ptw")
+
+[node name="SM_Shield_8" parent="." index="12"]
+surface_material_override/0 = ExtResource("4_u6ptw")
+
+[node name="SM_Shield_9" parent="." index="13"]
+surface_material_override/0 = ExtResource("4_u6ptw")
+
+[node name="SM_Statue_3" parent="." index="14"]
+surface_material_override/0 = ExtResource("5_a4pcv")
+
+[node name="SM_Statue_304" parent="." index="15"]
+surface_material_override/0 = ExtResource("5_a4pcv")
+
+[node name="SM_Statue_4" parent="." index="16"]
+surface_material_override/0 = ExtResource("5_a4pcv")
+
+[node name="SM_Statue_6" parent="." index="17"]
+surface_material_override/0 = ExtResource("5_a4pcv")

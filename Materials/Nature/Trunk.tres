@@ -1,0 +1,15 @@
+[gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://ye5sem6yj38p"]
+
+[ext_resource type="Texture2D" path="res://Textures/Nature/M_TreeTrunk01_Inst_0_BaseColor.dds" id="1_plew7"]
+[ext_resource type="Texture2D" path="res://Textures/Nature/M_TreeTrunk01_Inst_0_Specular.dds" id="2_w8cc5"]
+[ext_resource type="Texture2D" uid="uid://rycosp8ma32x" path="res://Textures/Nature/M_TreeTrunk01_Inst_0_Normal.png" id="3_tbw1x"]
+
+[resource]
+albedo_texture = ExtResource("1_plew7")
+metallic = 1.0
+metallic_texture = ExtResource("2_w8cc5")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_w8cc5")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_tbw1x")

@@ -1,0 +1,67 @@
+[gd_scene load_steps=16 format=3 uid="uid://c3phaal1ft073"]
+
+[ext_resource type="PackedScene" uid="uid://ocq2tjm8derj" path="res://Meshes/SunTemple_Landscape.glb" id="1_kwk4q"]
+[ext_resource type="Material" uid="uid://dhtph41w7lyr2" path="res://Materials/Nature/Rocks0.tres" id="2_chg6b"]
+[ext_resource type="Material" uid="uid://k3qfq0ut81mv" path="res://Materials/Nature/Landscape.tres" id="2_inxq7"]
+[ext_resource type="Material" uid="uid://crl7no56123hr" path="res://Materials/Nature/Rocks8.tres" id="3_fid2h"]
+[ext_resource type="Material" uid="uid://cpmiksl8j2d6l" path="res://Materials/Nature/Rocks1.tres" id="3_kl51g"]
+[ext_resource type="Material" uid="uid://buoshgbrxvge4" path="res://Materials/Nature/Rocks2.tres" id="3_uocig"]
+[ext_resource type="Material" uid="uid://lqm3aibwj3bh" path="res://Materials/Nature/Rocks9.tres" id="4_3noyi"]
+[ext_resource type="Material" uid="uid://bsaes6bsv8m8p" path="res://Materials/Nature/Rocks11.tres" id="4_bksmb"]
+[ext_resource type="Material" uid="uid://d3kncy5k2x7qs" path="res://Materials/Nature/Rocks3.tres" id="5_ahj7j"]
+[ext_resource type="Material" uid="uid://b22161igj20y7" path="res://Materials/Nature/Rocks10.tres" id="5_p8wey"]
+[ext_resource type="Material" uid="uid://evgbdkndmjlp" path="res://Materials/Nature/Rocks4.tres" id="6_jbtug"]
+[ext_resource type="Material" uid="uid://c8yx5yekny66w" path="res://Materials/Nature/Rocks12.tres" id="7_40gov"]
+[ext_resource type="Material" uid="uid://bkllfj4e1e2ns" path="res://Materials/Nature/Rocks5.tres" id="7_ngelt"]
+[ext_resource type="Material" uid="uid://cs7qbiyihythr" path="res://Materials/Nature/Rocks6.tres" id="8_07ln6"]
+[ext_resource type="Material" uid="uid://dlq5hc8snjpje" path="res://Materials/Nature/Rocks7.tres" id="10_1mknt"]
+
+[node name="SunTemple_Landscape" instance=ExtResource("1_kwk4q")]
+
+[node name="SM_Cave_Rock_Large02_6" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_chg6b")
+
+[node name="SM_Cave_Rock_Large10" parent="." index="1"]
+surface_material_override/0 = ExtResource("3_fid2h")
+
+[node name="SM_Cave_Rock_Large11" parent="." index="2"]
+surface_material_override/0 = ExtResource("4_3noyi")
+
+[node name="SM_Cave_Rock_Large12" parent="." index="3"]
+surface_material_override/0 = ExtResource("5_p8wey")
+
+[node name="SM_Cave_Rock_Large13" parent="." index="4"]
+surface_material_override/0 = ExtResource("4_bksmb")
+
+[node name="SM_Cave_Rock_Large14" parent="." index="5"]
+surface_material_override/0 = ExtResource("7_40gov")
+
+[node name="SM_Cave_Rock_Large3" parent="." index="6"]
+surface_material_override/0 = ExtResource("3_uocig")
+
+[node name="SM_Cave_Rock_Large4" parent="." index="7"]
+surface_material_override/0 = ExtResource("3_kl51g")
+
+[node name="SM_Cave_Rock_Large5" parent="." index="8"]
+surface_material_override/0 = ExtResource("5_ahj7j")
+
+[node name="SM_Cave_Rock_Large6" parent="." index="9"]
+surface_material_override/0 = ExtResource("6_jbtug")
+
+[node name="SM_Cave_Rock_Large7" parent="." index="10"]
+surface_material_override/0 = ExtResource("7_ngelt")
+
+[node name="SM_Cave_Rock_Large8" parent="." index="11"]
+surface_material_override/0 = ExtResource("8_07ln6")
+
+[node name="SM_Cave_Rock_Large9" parent="." index="12"]
+surface_material_override/0 = ExtResource("10_1mknt")
+
+[node name="SM_RockTerrain_2" parent="." index="13"]
+surface_material_override/0 = ExtResource("2_inxq7")
+
+[node name="SM_RockTerrain_5" parent="." index="14"]
+surface_material_override/0 = ExtResource("2_inxq7")
+
+[node name="SM_RockTerrain_8" parent="." index="15"]
+surface_material_override/0 = ExtResource("2_inxq7")

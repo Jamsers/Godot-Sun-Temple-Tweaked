@@ -1,0 +1,15 @@
+[gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://cxjcuka3qi8ey"]
+
+[ext_resource type="Texture2D" path="res://Textures/Details/M_Shield_Inst_0_BaseColor.dds" id="1_b66pm"]
+[ext_resource type="Texture2D" path="res://Textures/Details/M_Shield_Inst_0_Specular.dds" id="2_ms1yg"]
+[ext_resource type="Texture2D" uid="uid://bwxna0a2o3rlf" path="res://Textures/Details/M_Shield_Inst_0_Normal.png" id="3_vbhwg"]
+
+[resource]
+albedo_texture = ExtResource("1_b66pm")
+metallic = 1.0
+metallic_texture = ExtResource("2_ms1yg")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_ms1yg")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_vbhwg")

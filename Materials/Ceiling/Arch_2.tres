@@ -1,0 +1,15 @@
+[gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://hdj3ie2aleka"]
+
+[ext_resource type="Texture2D" path="res://Textures/Ceiling/M_Arch_Inst_2_0_BaseColor.dds" id="1_xkut6"]
+[ext_resource type="Texture2D" path="res://Textures/Ceiling/M_Arch_Inst_2_0_Specular.dds" id="2_8yery"]
+[ext_resource type="Texture2D" uid="uid://cyh02ypbo0511" path="res://Textures/Ceiling/M_Arch_Inst_0_Normal.png" id="3_shdac"]
+
+[resource]
+albedo_texture = ExtResource("1_xkut6")
+metallic = 1.0
+metallic_texture = ExtResource("2_8yery")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_8yery")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_shdac")

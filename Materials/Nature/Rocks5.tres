@@ -1,0 +1,15 @@
+[gd_resource type="StandardMaterial3D" load_steps=4 format=3 uid="uid://bkllfj4e1e2ns"]
+
+[ext_resource type="Texture2D" path="res://Textures/Nature/M_Soul_Rocks2_Inst_5_BaseColor.dds" id="1_dbv00"]
+[ext_resource type="Texture2D" path="res://Textures/Nature/M_Soul_Rocks2_Inst_5_Specular.dds" id="2_43tw3"]
+[ext_resource type="Texture2D" uid="uid://c6kj30hm2n4a7" path="res://Textures/Nature/M_Soul_Rocks2_Inst_5_Normal.png" id="3_nq03q"]
+
+[resource]
+albedo_texture = ExtResource("1_dbv00")
+metallic = 1.0
+metallic_texture = ExtResource("2_43tw3")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_43tw3")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_nq03q")

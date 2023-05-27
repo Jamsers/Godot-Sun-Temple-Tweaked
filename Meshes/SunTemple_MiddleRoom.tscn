@@ -1,0 +1,856 @@
+[gd_scene load_steps=14 format=3 uid="uid://bpvrvb514mjd"]
+
+[ext_resource type="PackedScene" uid="uid://d1wcoaoh0omtx" path="res://Meshes/SunTemple_MiddleRoom.glb" id="1_3uurl"]
+[ext_resource type="Material" uid="uid://s1n2hokm5673" path="res://Materials/Walls/BottomTrim.tres" id="2_6i7yp"]
+[ext_resource type="Material" uid="uid://r8hdlngc8u0" path="res://Materials/Ceiling/Arch.tres" id="2_johbv"]
+[ext_resource type="Material" uid="uid://jh6102rilljq" path="res://Materials/Ceiling/Arch_Red.tres" id="3_2f7ep"]
+[ext_resource type="Material" uid="uid://da274yhv0nmgd" path="res://Materials/Walls/StoneBrickWall.tres" id="3_ohrpl"]
+[ext_resource type="Material" uid="uid://cn0ff1f1gqpug" path="res://Materials/Ceiling/Dome.tres" id="4_po0a7"]
+[ext_resource type="Material" uid="uid://cnol7nsgu815v" path="res://Materials/Walls/Trim.tres" id="4_w0mr5"]
+[ext_resource type="Material" uid="uid://bos7yynvrwm7x" path="res://Materials/Walls/Pillar_Coloured.tres" id="5_2q3dl"]
+[ext_resource type="Material" uid="uid://uqq1wy3t0d4i" path="res://Materials/Walls/BottomTrim2.tres" id="5_pfppf"]
+[ext_resource type="Material" uid="uid://dos33cxeeqk70" path="res://Materials/Ceiling/StoneCeiling.tres" id="6_oce8d"]
+[ext_resource type="Material" uid="uid://caa6hd06obux8" path="res://Materials/Ground/Stairs.tres" id="8_7kkaj"]
+[ext_resource type="Material" uid="uid://0hvv76wdl3ri" path="res://Materials/Walls/Railing.tres" id="8_lsd6b"]
+[ext_resource type="Material" uid="uid://bej5bp4e11dk7" path="res://Materials/Walls/Pillar.tres" id="9_5hhtt"]
+
+[node name="SunTemple_MiddleRoom" instance=ExtResource("1_3uurl")]
+
+[node name="SM_Arch_24" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_johbv")
+
+[node name="SM_Arch_34" parent="." index="1"]
+surface_material_override/0 = ExtResource("3_2f7ep")
+
+[node name="SM_Arch_35" parent="." index="2"]
+surface_material_override/0 = ExtResource("3_2f7ep")
+
+[node name="SM_Arch_49" parent="." index="3"]
+surface_material_override/0 = ExtResource("2_johbv")
+
+[node name="SM_Arch_50" parent="." index="4"]
+surface_material_override/0 = ExtResource("3_2f7ep")
+
+[node name="SM_Arch_51" parent="." index="5"]
+surface_material_override/0 = ExtResource("3_2f7ep")
+
+[node name="SM_Arch_59" parent="." index="6"]
+surface_material_override/0 = ExtResource("3_2f7ep")
+
+[node name="SM_Arch_7" parent="." index="7"]
+surface_material_override/0 = ExtResource("3_2f7ep")
+
+[node name="SM_Arch_91" parent="." index="8"]
+surface_material_override/0 = ExtResource("2_johbv")
+
+[node name="SM_BottomTrim_10" parent="." index="9"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+
+[node name="SM_BottomTrim_11" parent="." index="10"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+
+[node name="SM_BottomTrim_12" parent="." index="11"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+
+[node name="SM_BottomTrim_13" parent="." index="12"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+
+[node name="SM_BottomTrim_14" parent="." index="13"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+
+[node name="SM_BottomTrim_330" parent="." index="14"]
+surface_material_override/0 = ExtResource("5_pfppf")
+
+[node name="SM_BottomTrim_4" parent="." index="15"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+
+[node name="SM_BottomTrim_5" parent="." index="16"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+
+[node name="SM_BottomTrim_6" parent="." index="17"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+
+[node name="SM_BottomTrim_7" parent="." index="18"]
+surface_material_override/0 = ExtResource("5_pfppf")
+
+[node name="SM_BrickWall_2" parent="." index="19"]
+surface_material_override/0 = ExtResource("3_ohrpl")
+
+[node name="SM_BrickWall_23" parent="." index="20"]
+surface_material_override/0 = ExtResource("3_ohrpl")
+
+[node name="SM_BrickWall_233" parent="." index="21"]
+surface_material_override/0 = ExtResource("3_ohrpl")
+
+[node name="SM_BrickWall_238" parent="." index="22"]
+surface_material_override/0 = ExtResource("3_ohrpl")
+
+[node name="SM_BrickWall_239" parent="." index="23"]
+surface_material_override/0 = ExtResource("6_oce8d")
+
+[node name="SM_BrickWall_26" parent="." index="24"]
+surface_material_override/0 = ExtResource("3_ohrpl")
+
+[node name="SM_BrickWall_3" parent="." index="25"]
+surface_material_override/0 = ExtResource("3_ohrpl")
+
+[node name="SM_BrickWall_4" parent="." index="26"]
+surface_material_override/0 = ExtResource("3_ohrpl")
+
+[node name="SM_BrickWall_6" parent="." index="27"]
+surface_material_override/0 = ExtResource("3_ohrpl")
+
+[node name="SM_BrickWall_7" parent="." index="28"]
+surface_material_override/0 = ExtResource("3_ohrpl")
+
+[node name="SM_BrickWall_9" parent="." index="29"]
+surface_material_override/0 = ExtResource("3_ohrpl")
+
+[node name="SM_Gable_18" parent="." index="30"]
+surface_material_override/0 = ExtResource("4_po0a7")
+surface_material_override/1 = ExtResource("3_ohrpl")
+
+[node name="SM_Gable_3" parent="." index="31"]
+surface_material_override/0 = ExtResource("4_po0a7")
+surface_material_override/1 = ExtResource("3_ohrpl")
+
+[node name="SM_Gable_37" parent="." index="32"]
+surface_material_override/0 = ExtResource("4_po0a7")
+surface_material_override/1 = ExtResource("3_ohrpl")
+
+[node name="SM_Gable_5" parent="." index="33"]
+surface_material_override/0 = ExtResource("4_po0a7")
+surface_material_override/1 = ExtResource("3_ohrpl")
+
+[node name="SM_Gable_6" parent="." index="34"]
+surface_material_override/0 = ExtResource("4_w0mr5")
+
+[node name="SM_Gable_7" parent="." index="35"]
+surface_material_override/0 = ExtResource("4_w0mr5")
+
+[node name="SM_PanelArch5_188" parent="." index="36"]
+surface_material_override/0 = ExtResource("4_po0a7")
+
+[node name="SM_Pillar_10" parent="." index="37"]
+surface_material_override/0 = ExtResource("5_2q3dl")
+
+[node name="SM_Pillar_12" parent="." index="38"]
+surface_material_override/0 = ExtResource("5_2q3dl")
+
+[node name="SM_Pillar_14" parent="." index="39"]
+surface_material_override/0 = ExtResource("5_2q3dl")
+
+[node name="SM_Pillar_266" parent="." index="40"]
+surface_material_override/0 = ExtResource("5_2q3dl")
+
+[node name="SM_Pillar_3" parent="." index="41"]
+surface_material_override/0 = ExtResource("5_2q3dl")
+
+[node name="SM_Pillar_36" parent="." index="42"]
+surface_material_override/0 = ExtResource("5_2q3dl")
+
+[node name="SM_Pillar_4" parent="." index="43"]
+surface_material_override/0 = ExtResource("5_2q3dl")
+
+[node name="SM_Pillar_5" parent="." index="44"]
+surface_material_override/0 = ExtResource("5_2q3dl")
+
+[node name="SM_Pillar_6" parent="." index="45"]
+surface_material_override/0 = ExtResource("5_2q3dl")
+
+[node name="SM_Pillar_7" parent="." index="46"]
+surface_material_override/0 = ExtResource("5_2q3dl")
+
+[node name="SM_Pillar_8" parent="." index="47"]
+surface_material_override/0 = ExtResource("5_2q3dl")
+
+[node name="SM_Pillar_9" parent="." index="48"]
+surface_material_override/0 = ExtResource("5_2q3dl")
+
+[node name="SM_Railing_2" parent="." index="49"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_Railing_25" parent="." index="50"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_Railing_26" parent="." index="51"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_Railing_29" parent="." index="52"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_Railing_3" parent="." index="53"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_Railing_30" parent="." index="54"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_Railing_39" parent="." index="55"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_Railing_4" parent="." index="56"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_Railing_5" parent="." index="57"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_Railing_6" parent="." index="58"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_Railing_7" parent="." index="59"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_RailingPillar_13" parent="." index="60"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_RailingPillar_14" parent="." index="61"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_RailingPillar_16" parent="." index="62"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_RailingPillar_17" parent="." index="63"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_RailingPillar_18" parent="." index="64"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_RailingPillar_31" parent="." index="65"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_RailingPillar_32" parent="." index="66"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_RailingPillar_35" parent="." index="67"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_Stairs_270" parent="." index="68"]
+surface_material_override/0 = ExtResource("8_7kkaj")
+
+[node name="SM_Stairs_3" parent="." index="69"]
+surface_material_override/0 = ExtResource("8_7kkaj")
+
+[node name="SM_Stairs_4" parent="." index="70"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_Stairs_5" parent="." index="71"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_Stairs_6" parent="." index="72"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_Stairs_7" parent="." index="73"]
+surface_material_override/0 = ExtResource("8_lsd6b")
+
+[node name="SM_Trim_1504" parent="." index="74"]
+surface_material_override/0 = ExtResource("4_w0mr5")
+
+[node name="SM_Trim_1505" parent="." index="75"]
+surface_material_override/0 = ExtResource("4_w0mr5")
+
+[node name="SM_Trim_1506" parent="." index="76"]
+surface_material_override/0 = ExtResource("4_w0mr5")
+
+[node name="SM_Trim_1507" parent="." index="77"]
+surface_material_override/0 = ExtResource("4_w0mr5")
+
+[node name="SM_Trim_1508" parent="." index="78"]
+surface_material_override/0 = ExtResource("4_w0mr5")
+
+[node name="SM_Trim_1509" parent="." index="79"]
+surface_material_override/0 = ExtResource("4_w0mr5")
+
+[node name="SM_Trim_1510" parent="." index="80"]
+surface_material_override/0 = ExtResource("4_w0mr5")
+
+[node name="SM_Trim_1511" parent="." index="81"]
+surface_material_override/0 = ExtResource("4_w0mr5")
+
+[node name="SM_Trim_1512" parent="." index="82"]
+surface_material_override/0 = ExtResource("4_w0mr5")
+
+[node name="SM_Trim_1513" parent="." index="83"]
+surface_material_override/0 = ExtResource("4_w0mr5")
+
+[node name="SM_Trim_1514" parent="." index="84"]
+surface_material_override/0 = ExtResource("4_w0mr5")
+
+[node name="SM_Trim_323" parent="." index="85"]
+surface_material_override/0 = ExtResource("4_w0mr5")
+
+[node name="SM_Trim_371" parent="." index="86"]
+surface_material_override/0 = ExtResource("4_w0mr5")
+
+[node name="SM_Trim_377" parent="." index="87"]
+surface_material_override/0 = ExtResource("4_w0mr5")
+
+[node name="SM_Trim_75" parent="." index="88"]
+surface_material_override/0 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_Door_10" parent="." index="89"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_Door_11" parent="." index="90"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_Door_2" parent="." index="91"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_Door_3" parent="." index="92"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_Door_307" parent="." index="93"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_Door_4" parent="." index="94"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_Door_5" parent="." index="95"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_Door_6" parent="." index="96"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_Door_7" parent="." index="97"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_Door_8" parent="." index="98"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_Door_9" parent="." index="99"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_Pillar_2" parent="." index="100"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_Pillar_21" parent="." index="101"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_Pillar_3" parent="." index="102"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_Pillar_4" parent="." index="103"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_120" parent="." index="104"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_121" parent="." index="105"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_122" parent="." index="106"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_123" parent="." index="107"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_125" parent="." index="108"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_126" parent="." index="109"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_127" parent="." index="110"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_128" parent="." index="111"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_129" parent="." index="112"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_130" parent="." index="113"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_132" parent="." index="114"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_134" parent="." index="115"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_135" parent="." index="116"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_136" parent="." index="117"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_137" parent="." index="118"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_138" parent="." index="119"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_139" parent="." index="120"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_140" parent="." index="121"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_141" parent="." index="122"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_154" parent="." index="123"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_155" parent="." index="124"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_160" parent="." index="125"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_161" parent="." index="126"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_162" parent="." index="127"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_163" parent="." index="128"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_167" parent="." index="129"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_168" parent="." index="130"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_169" parent="." index="131"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_170" parent="." index="132"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_171" parent="." index="133"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_172" parent="." index="134"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_173" parent="." index="135"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_174" parent="." index="136"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_175" parent="." index="137"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_176" parent="." index="138"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_177" parent="." index="139"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_178" parent="." index="140"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_179" parent="." index="141"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_180" parent="." index="142"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_181" parent="." index="143"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_182" parent="." index="144"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_183" parent="." index="145"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_184" parent="." index="146"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_185" parent="." index="147"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_186" parent="." index="148"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_187" parent="." index="149"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_190" parent="." index="150"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_191" parent="." index="151"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_192" parent="." index="152"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_193" parent="." index="153"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_195" parent="." index="154"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_196" parent="." index="155"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_197" parent="." index="156"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_198" parent="." index="157"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_199" parent="." index="158"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_201" parent="." index="159"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_202" parent="." index="160"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_203" parent="." index="161"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_204" parent="." index="162"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_205" parent="." index="163"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_206" parent="." index="164"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_207" parent="." index="165"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_209" parent="." index="166"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_210" parent="." index="167"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_221" parent="." index="168"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_222" parent="." index="169"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_228" parent="." index="170"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_229" parent="." index="171"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_247" parent="." index="172"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_248" parent="." index="173"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_272" parent="." index="174"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_340" parent="." index="175"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_58" parent="." index="176"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_61" parent="." index="177"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_63" parent="." index="178"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_64" parent="." index="179"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_66" parent="." index="180"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_68" parent="." index="181"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_80" parent="." index="182"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_81" parent="." index="183"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_82" parent="." index="184"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_91" parent="." index="185"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_TrimWall_U_96" parent="." index="186"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+
+[node name="SM_Window_275" parent="." index="187"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+surface_material_override/3 = ExtResource("9_5hhtt")
+surface_material_override/4 = ExtResource("4_po0a7")
+
+[node name="SM_Window_31" parent="." index="188"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+surface_material_override/3 = ExtResource("9_5hhtt")
+surface_material_override/4 = ExtResource("4_po0a7")
+
+[node name="SM_Window_32" parent="." index="189"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+surface_material_override/3 = ExtResource("9_5hhtt")
+surface_material_override/4 = ExtResource("4_po0a7")
+
+[node name="SM_Window_33" parent="." index="190"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+surface_material_override/3 = ExtResource("9_5hhtt")
+surface_material_override/4 = ExtResource("4_po0a7")
+
+[node name="SM_Window_34" parent="." index="191"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+surface_material_override/3 = ExtResource("9_5hhtt")
+surface_material_override/4 = ExtResource("4_po0a7")
+
+[node name="SM_Window_35" parent="." index="192"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+surface_material_override/3 = ExtResource("9_5hhtt")
+surface_material_override/4 = ExtResource("4_po0a7")
+
+[node name="SM_Window_36" parent="." index="193"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+surface_material_override/3 = ExtResource("9_5hhtt")
+surface_material_override/4 = ExtResource("4_po0a7")
+
+[node name="SM_Window_37" parent="." index="194"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+surface_material_override/3 = ExtResource("9_5hhtt")
+surface_material_override/4 = ExtResource("4_po0a7")
+
+[node name="SM_Window_68" parent="." index="195"]
+surface_material_override/0 = ExtResource("2_6i7yp")
+surface_material_override/1 = ExtResource("3_ohrpl")
+surface_material_override/2 = ExtResource("4_w0mr5")
+surface_material_override/3 = ExtResource("9_5hhtt")
+surface_material_override/4 = ExtResource("4_po0a7")
+
+[node name="SM_WindowWall_4" parent="." index="196"]
+surface_material_override/0 = ExtResource("3_ohrpl")
+
+[node name="SM_WindowWall_5" parent="." index="197"]
+surface_material_override/0 = ExtResource("3_ohrpl")
+
+[node name="SM_WindowWall_56" parent="." index="198"]
+surface_material_override/0 = ExtResource("3_ohrpl")
+
+[node name="SM_WindowWall_6" parent="." index="199"]
+surface_material_override/0 = ExtResource("3_ohrpl")
+
+[node name="SM_WindowWall_7" parent="." index="200"]
+surface_material_override/0 = ExtResource("3_ohrpl")

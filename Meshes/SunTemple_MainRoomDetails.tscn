@@ -1,0 +1,58 @@
+[gd_scene load_steps=7 format=3 uid="uid://bi7wiplwkaqr5"]
+
+[ext_resource type="PackedScene" uid="uid://wkdr52kut1uw" path="res://Meshes/SunTemple_MainRoomDetails.glb" id="1_tak5t"]
+[ext_resource type="Material" uid="uid://byuwv4qh7qppp" path="res://Materials/Details/BottomTrim_Black.tres" id="2_t00kw"]
+[ext_resource type="Material" uid="uid://bay720vshaqmx" path="res://Materials/Details/FirePit_Glow.tres" id="3_6vwd3"]
+[ext_resource type="Material" uid="uid://cxjcuka3qi8ey" path="res://Materials/Details/Shield.tres" id="3_s5aiw"]
+[ext_resource type="Material" uid="uid://uroasc664557" path="res://Materials/Details/Statue.tres" id="3_yn42t"]
+[ext_resource type="Material" uid="uid://d4gv100qut5xa" path="res://Materials/Details/FirePit_NoGlow.tres" id="4_mx3ac"]
+
+[node name="SunTemple_MainRoomDetails" instance=ExtResource("1_tak5t")]
+
+[node name="SM_BottomTrim_Sqr_10" parent="." index="0"]
+surface_material_override/0 = ExtResource("2_t00kw")
+
+[node name="SM_BottomTrim_Sqr_8" parent="." index="1"]
+surface_material_override/0 = ExtResource("2_t00kw")
+
+[node name="SM_BottomTrim_Sqr_9" parent="." index="2"]
+surface_material_override/0 = ExtResource("2_t00kw")
+
+[node name="SM_FirePit_15" parent="." index="3"]
+surface_material_override/0 = ExtResource("3_6vwd3")
+
+[node name="SM_FirePit_16" parent="." index="4"]
+surface_material_override/0 = ExtResource("3_6vwd3")
+
+[node name="SM_FirePit_17" parent="." index="5"]
+surface_material_override/0 = ExtResource("3_6vwd3")
+
+[node name="SM_FirePit_18" parent="." index="6"]
+surface_material_override/0 = ExtResource("3_6vwd3")
+
+[node name="SM_FirePit_20" parent="." index="7"]
+surface_material_override/0 = ExtResource("4_mx3ac")
+
+[node name="SM_FirePit_26" parent="." index="8"]
+surface_material_override/0 = ExtResource("3_6vwd3")
+
+[node name="SM_FirePit_27" parent="." index="9"]
+surface_material_override/0 = ExtResource("3_6vwd3")
+
+[node name="SM_FirePit_28" parent="." index="10"]
+surface_material_override/0 = ExtResource("3_6vwd3")
+
+[node name="SM_Shield_10" parent="." index="11"]
+surface_material_override/0 = ExtResource("3_s5aiw")
+
+[node name="SM_Shield_4" parent="." index="12"]
+surface_material_override/0 = ExtResource("3_s5aiw")
+
+[node name="SM_Shield_6" parent="." index="13"]
+surface_material_override/0 = ExtResource("3_s5aiw")
+
+[node name="SM_Shield_7" parent="." index="14"]
+surface_material_override/0 = ExtResource("3_s5aiw")
+
+[node name="SM_Statue_5" parent="." index="15"]
+surface_material_override/0 = ExtResource("3_yn42t")
